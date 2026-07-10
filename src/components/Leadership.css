@@ -1,0 +1,47 @@
+.leadership {
+    padding: 100px 8%;
+    background: #0f172a;
+    color: white;
+}
+
+.leadership h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    gap: 30px;
+}
+
+.leadership-card {
+    background: #1e293b;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: .3s;
+    border: 1px solid #334155;
+}
+
+.leadership-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(56,189,248,.35);
+    border-color: #38bdf8;
+}
+
+.icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.leadership-card h3 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+.leadership-card p {
+    color: #cbd5e1;
+    line-height: 1.7;
+}
