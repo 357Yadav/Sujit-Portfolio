@@ -46,13 +46,14 @@ function Hero() {
 
         <div className="buttons">
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="primary-btn"
-          >
-            Download Resume
-          </a>
+  href="/resume.pdf"
+  download="Sujit_Yadav_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="primary-btn"
+>
+  Download Resume
+</a>
 
           <a href="#projects" className="secondary-btn">
             View Projects <FaArrowRight />

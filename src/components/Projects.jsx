@@ -11,14 +11,14 @@ const projects = [
     github: "https://github.com/357Yadav/Auction-portal",
   },
   {
-    title: "BoltsArmy Website",
-    image: "/boltsarmy.png",
-    description:
-      "Official fan engagement platform featuring memberships, player profiles, fixtures, gallery, and latest news.",
-    tech: "React • JavaScript • HTML • CSS",
-    live: "#", // Replace with your deployed BoltsArmy website when available
-    github: "#",
-  },
+  title: "BoltsArmy Website",
+  image: "/boltsarmy.png",
+  description:
+    "Official fan engagement platform for Janakpur Bolts featuring memberships, player profiles, fixtures, gallery, latest news, and team updates.",
+  tech: "React • JavaScript • HTML • CSS",
+  live: "https://janakpur-bolts-army.vercel.app/",
+  github: "https://github.com/Code-Runners-Nepal/Bolts-Army-Official-Website_Frontend",
+},
   {
     title: "ATM Banking System",
     image: "/atm.png",
